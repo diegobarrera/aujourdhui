@@ -4,7 +4,11 @@
 }
 
 body{
+<<<<<<< HEAD
 	background-image:url(_images/background.jpg);
+=======
+	background-image:url(../_images/background.jpg);
+>>>>>>> 2dc9b190ec2d2ef0f84ef86d6c8254e614057066
 	background-repeat:repeat;
 }
 
@@ -75,7 +79,11 @@ p{
 
 @media only screen and (max-width: 480px), only screen and (max-device-width: 640px) {
     body {
+<<<<<<< HEAD
 		background-image:url(_images/background.jpg);
+=======
+		background-image:url(../_images/background.jpg);
+>>>>>>> 2dc9b190ec2d2ef0f84ef86d6c8254e614057066
 		background-repeat:repeat;
         background-position: center top;
     }
