@@ -1,0 +1,83 @@
+@media screen{
+*{
+  font-family: "Baskerville Old Face", Helvetica;
+}
+
+body{
+	background-image:url(_images/background.jpg);
+	background-repeat:repeat;
+	background-size:auto;
+}
+
+p{
+	font-size: 1em;
+}
+
+.titulo{
+	color:#FFF;
+	font-family:"Baskerville Old Face",Helvetica, Arial;
+	top:5%;
+	left:43%;
+	position:absolute;
+}
+
+.button1{
+	text-align:center;
+	position:relative;
+	background:#6FC;
+	height:2.5em;
+	width:5.5em;
+	border-radius:3px;
+	border:2px solid #0FC;	
+	left:45.5%;
+	top:25%;	
+	font-family:Helvetica, Geneva, sans-serif;
+}
+.selected{
+	background-color:#000;
+/*	opacity:0.8;*/
+	color:#FFF;
+	text-align:center;
+	border:2px solid #6FC;	
+}
+
+.back{
+	background-color:#000;
+	width:100%;
+	height:30em;
+	border-radius:1em;
+	box-shadow:5px 5px 5px #333;
+}
+
+.footer{
+	background-color:#FFF;
+	border-radius:1em;
+	width:99%;
+	height:5em;
+	margin-top:1em;
+	font-family:Helvetica, sans-serif;
+	text-align:left;
+	padding-top:1em;
+	padding-left:1em;
+	font-size:0.8em;
+	box-shadow:5px 5px 5px #6FC;
+}
+
+
+.navbar{
+	width:20%;
+	height:auto;
+	font-family:Times New Roman, Helvetica, sans-serif;
+	background-color:red;
+	display:inline-block;
+	text-align:center;
+}
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 640px) {
+    body {
+		background-image:url(_images/background.jpg);
+		background-repeat:repeat;
+        background-position: center top;
+    }
+}
