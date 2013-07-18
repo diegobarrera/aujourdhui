@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aujourd'hui</title>
+        <!---<body oncontextmenu="return false;">--->
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+      <link rel='stylesheet' type="text/css" href="stylesheet.css" media="screen"/>
+<!---        <link rel='stylesheet' href="stylemobile.css" media="handheld"/>--->
+<!--<script type="text/javascript" src="script.js"></script>-->
+  	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+        
+        
+        
+    </head>
+    
+    <body> 
+    
+        <div style="margin-left:7%; position: absolute; width:25%;">
+            <div class="navbar" id="a" style="background-color:#66C"><p>A</p></div>
+            <div class="navbar" id="b" style="background-color:#69C"><p>B</p></div>
+            <div class="navbar" id="c" style="background-color:#6CC"><p>C</p></div>
+            <div class="navbar" id="d" style="background-color:#6FC"><p>D</p></div>
+        </div>       
+    
+        
+
+    <div class="back">
+      <h1 class="titulo">Aujourd'hui</h1> 
+      <div class="button1">
+                <p>Click :D</p>
+      </div>
+    </div>
+    <div class="footer"><p></p>Footer</div>
+
+    <script>
+		$(".button1").click(function(){
+			$(".back").fadeTo("fast",0.25);
+			$(".footer").fadeTo("fast",0.25);
+		});
+
+        $(".button1").mouseenter(function(){
+            $(this).addClass("selected");
+        });
+        $(".button1").mouseleave(function(){
+            $(this).removeClass("selected");
+        });
+		
+		$(".navbar").mouseenter(function(){
+			$(this).animate({fontSize:"20px"},100);
+		});
+		$(".navbar").mouseleave(function(){
+			$(this).animate({fontSize:"15px"},100);
+		});
+
+ 	</script>
+    
+    </body>
+</html>
