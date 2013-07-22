@@ -4,7 +4,11 @@
 }
 
 body{
+<<<<<<< HEAD:www/stylesheet.css
 	background-image:url('./_images/background.jpg');
+=======
+	background:url('../_images/background.jpg');
+>>>>>>> 8fd9c570036c160b077c2e970d4a336948e45df0:stylesheet.css
 	background-repeat:repeat;
 }
 
@@ -75,8 +79,12 @@ p{
 
 @media only screen and (max-width: 480px), only screen and (max-device-width: 640px) {
     body {
+<<<<<<< HEAD:www/stylesheet.css
 
 		background:url('_images/background.jpg');
+=======
+		background-image:url('../_images/background.jpg');
+>>>>>>> 8fd9c570036c160b077c2e970d4a336948e45df0:stylesheet.css
 		background-repeat:repeat;
         background-position: center top;
     }
