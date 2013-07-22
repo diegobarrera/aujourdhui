@@ -4,15 +4,7 @@
 }
 
 body{
-<<<<<<< HEAD
-<<<<<<< HEAD
-	background-image:url(_images/background.jpg);
-=======
-	background-image:url(../_images/background.jpg);
->>>>>>> 2dc9b190ec2d2ef0f84ef86d6c8254e614057066
-=======
-	background:url(_images/background.jpg);
->>>>>>> 93e638391c65cbecf2844fb44285e0697df015ac
+	background-image:url('./_images/background.jpg');
 	background-repeat:repeat;
 }
 
@@ -49,11 +41,11 @@ p{
 }
 
 .back{
-	background-color:#000;
-	width:100%;
-	height:30em;
-	border-radius:1em;
-	box-shadow:5px 5px 5px #333;
+	background-color: #000;
+	width: 100%;
+	height: 30em;
+	border-radius: 1em;
+	box-shadow: 5px 5px 5px #333;
 }
 
 .footer{
@@ -83,15 +75,8 @@ p{
 
 @media only screen and (max-width: 480px), only screen and (max-device-width: 640px) {
     body {
-<<<<<<< HEAD
-<<<<<<< HEAD
-		background-image:url(_images/background.jpg);
-=======
-		background-image:url(../_images/background.jpg);
->>>>>>> 2dc9b190ec2d2ef0f84ef86d6c8254e614057066
-=======
-		background:url(_images/background.jpg);
->>>>>>> 93e638391c65cbecf2844fb44285e0697df015ac
+
+		background:url('_images/background.jpg');
 		background-repeat:repeat;
         background-position: center top;
     }
